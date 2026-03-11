@@ -1,0 +1,2 @@
+Done lessons 10 and 11 from sqlbolt https://sqlbolt.com/
+Did Aggregating Rows: Databases for Developers from free sql https://freesql.com/worksheet?tutorial=aggregating-rows-databases-for-developers-Ml0hbf
