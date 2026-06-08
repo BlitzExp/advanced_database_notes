@@ -11,27 +11,19 @@ SELECT building, SUM(years_employed) FROM employees GROUP BY building;
 SELECT COUNT(role) FROM employees where role = 'Artist';
         -- Find the number of Employees of each role in the studio
 SELECT role, COUNT(role) FROM employees GROUP By role;
+        -- Find the total number of years employed by all Engineers
+SELECT role, SUM(Years_employed) FROM employees Where role = 'Engineer';
 
--- Find the total number of years employed by all Engineers
-
-SELECT role, SUM(Years_employed)
-FROM employees
-Where role = 'Engineer';
-
-
--- Complete the following query to return the: Number of different shapes and The standard deviation (stddev) of the unique weights
+-- Aggregating Rows: Databases for Developers
+        -- Complete the following query to return the: Number of different shapes and The standard deviation (stddev) of the unique weights
 SELECT COUNT(DISTINCT shape) number_of_shapes,
         STDDEV(UNIQUE WEIGHT) distinct_weight_stddev
 FROM bricks;
-
--- Complete the following query to return the total weight for each shape stored in the bricks table:
-
+        -- Complete the following query to return the total weight for each shape stored in the bricks table:
 SELECT shape, SUM(WEIGHT) AS shape_weight
 FROM bricks
 GROUP BY shape;
-
--- Complete the following query to find the shapes which have a total weight less than four:
-
+        -- Complete the following query to find the shapes which have a total weight less than four:
 SELECT shape, SUM(WEIGHT) AS sw
 FROM bricks
 GROUP BY shape
