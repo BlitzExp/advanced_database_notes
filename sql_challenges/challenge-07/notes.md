@@ -1,0 +1,1 @@
+Vector Search allows for a database to get natural language based queries and give an answer based on proximity of the question and the answer when modeled. Really useful for searches!
