@@ -1,0 +1,1 @@
+This lesson focuses on building trustworthy KPI dashboards by defining each metric before writing SQL. The main topics are team velocity, on-time delivery, active workload, completion rate, average and median resolution time, overdue severity, weighted productivity, team efficiency, urgency scoring, and using Oracle SQL results inside Plotly charts in Colab
