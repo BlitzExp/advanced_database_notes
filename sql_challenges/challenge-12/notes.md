@@ -1,0 +1,1 @@
+This exercise focuses on adding a Comment ORM model, generating Alembic migrations, using upgrade()/downgrade(), doing CRUD with relationships, and understanding how ORM sessions and migrations work. I also noted that in your notebook, priority appears under Team, but for Exercise 3 it should belong to Task
